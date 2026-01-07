@@ -35,3 +35,58 @@ The dependencies are satisfied using the following sources:
 wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_install_noetic.sh && chmod +x ./ros_install_noetic.sh && ./ros_install_noetic.sh
 # install numpy
 pip3 install numpy setuptools
+
+## Installing
+
+### A step by step series of examples that tell you how to get a development env running
+
+cd ~/catkin_ws/src
+git submodule init
+git submodule update
+cd ../
+rosdep install --from-paths src --ignore-src -r -y
+catkin_make -DCMAKE_BUILD_TYPE=Release
+source ./devel/setup.bash
+
+## Deployment
+
+### Add additional notes about how to deploy this on a live system
+
+Run the application with .docker/run_user_nvidia.sh
+
+Ensure that you are running the indicate command sudo chmod -R <user_name> \dev_ws for permitions
+
+Run terminator
+
+## Demo
+
+### Here is what the project can do and what are the results. The project demonstrates a robotic execution of a coin toss with controlled motion and analyzable outcomes. The project can be launched with the following command:
+
+roslaunch package_name package_name.launch
+This opens up rviz and shows the robot moving around during the coin-toss sequence.
+
+## Authors
+
+Leo – Repository management, structure, documentation, system overview
+
+Jenni – Development of the coin-toss mechanism
+
+Max – Research on coin dynamics, sensing strategies, and motion analysis
+
+Natalia – Theoretical research, precedents, and mathematical modeling
+
+## References
+
+K. Albee et al., “A robust observation, planning, and control pipeline for autonomous rendezvous with tumbling targets,” Frontiers in Robotics and AI, vol. 8, p. 234, 2021, doi: 10.3389/frobt.2021.641338.
+
+## Credits
+
+Leo, Jenni, Max, Natalia – Concept development, research, implementation, and documentation
+
+<!-- DO NOT REMOVE -->
+
+## Acknowledgements
+
+Creation of GitHub template: Marita Georganta – Robotic Sensing Expert
+
+Creation of MRAC-IAAC GitHub Structure: Huanyu Li – Robotic Researcher
