@@ -1,0 +1,11 @@
+Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+cd ~/catkin_ws/src
+git submodule init
+git submodule update
+cd ../
+rosdep install --from-paths src --ignore-src -r -y
+catkin_make -DCMAKE_BUILD_TYPE=Release
+source ./devel/setup.bash
