@@ -68,7 +68,7 @@ Although a coin toss is a simple human action, translating it into a robotic tas
 2. Detailed end-effector design
 3. parameter set
    
-### Prerequisites
+## Prerequisites
 Ensure that you fulfill the following criteria to replicate this project.
 * Ubuntu LTS 20.04 <
 * Python 3.7 <
