@@ -44,6 +44,9 @@ Although a coin toss is a simple human action, translating it into a robotic tas
     - Vision sensor (camera)
     - Control algorithms
 
+
+      
+
 ### System Level
 
 — What functions the system must perform.
@@ -67,11 +70,18 @@ Although a coin toss is a simple human action, translating it into a robotic tas
     | Sensing | Camera image | Coin pose and face |
     | Flipping | Coin pose, parameters | Coin motion |
     | Evaluation | Pre-/post-flip state | Success / failure |
+
+
+   
    
 ###  Subsystem / Component Level
 1. sense
 2. Detailed end-effector design
 3. parameter set
+
+
+
+
 
 
    
