@@ -39,6 +39,11 @@ Although a coin toss is a simple human action, translating it into a robotic tas
     
 3. System Boundaries
 
+    - Robotic arm
+    - End-effector
+    - Vision sensor (camera)
+    - Control algorithms
+
 ### System Level
 
 — What functions the system must perform.
@@ -67,6 +72,8 @@ Although a coin toss is a simple human action, translating it into a robotic tas
 1. sense
 2. Detailed end-effector design
 3. parameter set
+
+
    
 ## Prerequisites
 Ensure that you fulfill the following criteria to replicate this project.
