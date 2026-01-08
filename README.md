@@ -91,3 +91,6 @@ Leo, Jenni, Max, Natalia – Concept development, research, implementation, and 
 Creation of GitHub template: Marita Georganta – Robotic Sensing Expert
 
 Creation of MRAC-IAAC GitHub Structure: Huanyu Li – Robotic Researcher
+
+1.[x] max
+1.[] dicaprio
