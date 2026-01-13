@@ -177,6 +177,7 @@ To analyze the motion and trajectory of the coin, the setup incorporates **two c
 
 Together, the robotic arm, suction-based reset mechanism, synchronized I/O control, and dual-camera vision system form a closed experimental setup. This configuration enables controlled coin tossing, repeatable initialization, and detailed motion analysis, serving as a foundation for further investigation into trajectory behavior, repeatability, and potential learning-based optimization.
 
+<img width="1152" height="896" alt="Gemini_Generated_Image_ep84r2ep84r2ep84" src="https://github.com/user-attachments/assets/489c1de8-a6b6-43a2-817f-c7999b4d27d8" />
 
 
 
