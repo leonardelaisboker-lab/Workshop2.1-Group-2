@@ -79,11 +79,11 @@ Although a coin toss is a simple human action, translating it into a robotic tas
 2. Detailed end-effector design
 3. parameter set
 
-### Market Analysis and Use Cases
+## Market Analysis and Use Cases
 
 Although the robotic coin toss originates from an experimental and academic context, the underlying system combines precise robotics, sensing, vision-based analysis, and repeatable motion control. These characteristics enable several potential applications beyond the laboratory environment. The following use cases are ordered according to their estimated monetary viability.
 
-## 1. Live Event & Sports Entertainment (High Monetary Potential)
+### 1. Live Event & Sports Entertainment (High Monetary Potential)
 
 A robotic coin toss system can be integrated into **sports events**, such as football matches, e-sports tournaments, or televised competitions, where coin tosses are traditionally used to decide kickoff, side selection, or turn order.
 
@@ -96,7 +96,7 @@ The system could be sponsored, branded, or customized for major events, creating
 
 ---
 
-## 2. Interactive Exhibition & Trade Fair Installation (Medium–High Monetary Potential)
+### 2. Interactive Exhibition & Trade Fair Installation (Medium–High Monetary Potential)
 
 The robotic coin toss can function as an **interactive installation** at trade fairs, technology expos, or corporate showcases. Visitors could trigger the coin toss, observe the motion analysis in real time, and interact with visualized data such as trajectories, rotation speed, or probability distributions.
 
@@ -109,7 +109,7 @@ Revenue potential arises through **custom installations, short-term rentals, and
 
 ---
 
-## 3. Artistic and Cultural Installations (Medium Monetary Potential)
+### 3. Artistic and Cultural Installations (Medium Monetary Potential)
 
 In an artistic context, the robotic coin toss can be interpreted as a commentary on **chance, determinism, and control**. By visualizing trajectories, biases, and outcomes, the system can question the notion of randomness in both human and machine decision-making.
 
@@ -122,7 +122,7 @@ While direct monetization is typically lower than commercial events, funding can
 
 ---
 
-## 4. Research, Education, and Demonstration Platforms (Low–Medium Monetary Potential)
+### 4. Research, Education, and Demonstration Platforms (Low–Medium Monetary Potential)
 
 The system can be used as a **teaching and research platform** for robotics, computer vision, control systems, and experimental design. It provides a tangible example of how simple actions become complex when formalized and automated.
 
@@ -135,7 +135,7 @@ Monetization is mainly indirect, through educational funding, institutional budg
 
 ---
 
-## 5. Public Interaction & Urban Installations (Low Monetary Potential)
+### 5. Public Interaction & Urban Installations (Low Monetary Potential)
 
 As a public-facing installation in urban spaces or science centers, the robotic coin toss could serve as an engaging interactive object. However, such installations typically prioritize accessibility and education over profit.
 
@@ -159,7 +159,7 @@ As a result, this use case ranks lowest in terms of direct monetary return.
 
 
 
-### Experimental Test Setup
+## Experimental Test Setup
 
 The experimental setup consists of an industrial robotic system designed to perform a controlled and repeatable coin toss. The core element of the setup is a **UR10 robotic arm**, equipped with a **flat plate end-effector**. Instead of grasping the coin during the toss, the end-effector generates an impulse from below, transferring linear momentum and inducing rotational motion in the coin.
 
