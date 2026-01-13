@@ -169,6 +169,9 @@ To synchronize the physical interaction with the control logic, the system relie
 
 To analyze the motion and trajectory of the coin, the setup incorporates **two camera systems**:
 
+![Mi primer tablero (1)](https://github.com/user-attachments/assets/4481424b-68c9-43a5-b25c-af2dce157347)
+https://miro.com/app/board/uXjVGRQcVfM=/
+
 1. **Global Cell Camera**  
    The first camera observes the entire robotic cell. The workspace is defined using **four ArUco markers**, which allow the camera to estimate its pose and track the relative position of the robot and coin within a calibrated coordinate system. This camera provides spatial context and supports system-level motion analysis.
 
