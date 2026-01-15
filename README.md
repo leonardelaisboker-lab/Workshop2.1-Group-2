@@ -232,10 +232,45 @@ Run terminator
 
 ## Demo
 
-### Here is what the project can do and what are the results. The project demonstrates a robotic execution of a coin toss with controlled motion and analyzable outcomes. The project can be launched with the following command:
+### Python-Based Coin Toss Logic Demo
 
-roslaunch package_name package_name.launch
-This opens up rviz and shows the robot moving around during the coin-toss sequence.
+In addition to the physical robotic setup, this repository includes a lightweight Python-based demo that conceptually simulates the logic of the coin-toss system. This demo is intended as an abstract representation of the sensing–decision–actuation loop used in the robotic implementation.
+
+The demo is composed of several modular Python scripts, each representing a subsystem of the robotic architecture:
+
+- **coin_flip.py**  
+  Acts as the world state and control loop. It maintains whether the coin is at its origin position and orchestrates the system behavior.
+
+- **coinFliping.py**  
+  Simulates the physical randomness of the coin toss by generating a random coin face (`heads` or `tails`).
+
+- **camera.py**  
+  Represents a vision sensor responsible for detecting the coin face after the toss.
+
+- **camara2.py**  
+  Simulates a second vision sensor that detects the spatial position of the coin in the workspace by generating random `(x, y)` coordinates.
+
+#### Demo Workflow
+
+The execution loop follows this sequence:
+
+1. The system checks whether the coin is at its origin position.
+2. If the coin is at the origin, the controller triggers a coin flip.
+3. The coin face is randomly generated to simulate physical uncertainty.
+4. Once the coin is no longer at the origin, the vision modules are activated:
+   - One camera detects the coin face.
+   - A second camera detects the coin position in space.
+5. After sensing, the coin is programmatically returned to its origin position.
+6. The loop repeats, enabling continuous trials.
+
+This Python demo mirrors the structure of the full robotic system by clearly separating:
+- **Sensing**
+- **Decision-making**
+- **Actuation**
+- **State management**
+
+Although simplified, this abstraction reflects the same architectural principles used in the robotic implementation, such as modularity, closed-loop control, and system-level coordination. The demo serves as a conceptual and educational tool to understand how a seemingly simple action—like a coin toss—requires structured logic and subsystem integration when executed by a robotic system.
+
 
 ## Authors
 
