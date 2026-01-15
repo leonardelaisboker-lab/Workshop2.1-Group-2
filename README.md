@@ -263,6 +263,9 @@ The execution loop follows this sequence:
 5. After sensing, the coin is programmatically returned to its origin position.
 6. The loop repeats, enabling continuous trials.
 
+<img width="456" height="233" alt="image" src="https://github.com/user-attachments/assets/5edcf5bf-f713-4b7c-aaed-0e9267bca15c" />
+
+
 This Python demo mirrors the structure of the full robotic system by clearly separating:
 - **Sensing**
 - **Decision-making**
