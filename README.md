@@ -18,6 +18,8 @@ Although a coin toss is a simple human action, translating it into a robotic tas
 
 ![Uploading flip_coin.png…]()
 
+![first iteration](https://github.com/user-attachments/assets/15668444-1be5-4cdb-a1c3-ae601c5f9d37)
+
 ## Getting Started
 ### Concept Level
 
